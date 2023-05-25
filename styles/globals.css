@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+    --wtf-hot: #E21B79;
+    --wtf-space: #1C1F2A;
+    --wtf-space-dark: #030611;
+    --wtf-space-light: #474952;
+    --off-white: #F2F2F2;
+    --off-white-dark: #DCDCDC;
+    --white: #FFFFFF;
+    --wtf-cold: #2DCCD3;
+    --wtf-hot-light: #F57EB6;
+    --wtf-cold-dark: #009CA6;
+  }

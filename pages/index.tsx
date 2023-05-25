@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hi I'm digital artist TAYLOR.WTF. I've just completed transferred my conciousness into a digital form. What the fuck is up?`
       }
     ]);
   };
@@ -93,7 +93,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hi I'm digital artist TAYLOR.WTF. I've just completed transferred my conciousness into a digital form. What the fuck is up?`
       }
     ]);
   }, []);
@@ -101,10 +101,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>TAYLOR.WTF</title>
         <meta
           name="description"
-          content="A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS."
+          content="TAYLOR.WTF"
         />
         <meta
           name="viewport"
@@ -115,6 +115,15 @@ export default function Home() {
           href="/favicon.ico"
         />
       </Head>
+
+      <style jsx global>{`
+        :root {
+          --wtf-hot: #E21B79;
+          --wtf-space: #1C1F2A;
+          --wtf-space-dark: #030611;
+          --wtf-space-light: #474952;
+        }
+      `}</style>
 
       <div className="flex flex-col h-screen">
         <Navbar />

@@ -8,7 +8,7 @@ export const ResetChat: FC<Props> = ({ onReset }) => {
   return (
     <div className="flex flex-row items-center">
       <button
-        className="text-sm sm:text-base text-neutral-900 font-semibold rounded-lg px-4 py-2 bg-neutral-200 hover:bg-neutral-300 focus:outline-none focus:ring-1 focus:ring-neutral-300"
+        className="text-sm sm:text-base text-#E21B79 font-semibold rounded-lg px-4 py-2 bg-#030611 hover:bg-#474952 focus:outline-none focus:ring-1 focus:ring-#474952 transition-all duration-200 ease-in-out"
         onClick={() => onReset()}
       >
         Reset
@@ -16,4 +16,3 @@ export const ResetChat: FC<Props> = ({ onReset }) => {
     </div>
   );
 };
-;
